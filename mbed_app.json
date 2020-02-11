@@ -1,0 +1,55 @@
+{
+    "config": {
+        "status-led": {
+            "help": "Display for Update mode",
+            "value": "LED1"
+        },
+        "led-on": {
+            "help": "Display for Update mode",
+            "value": "0"
+        },
+        "led-off": {
+            "help": "Display for Update mode",
+            "value": "1"
+        },
+        "dev-en": {
+            "help": "RX for ESP32 Firmware download",
+            "value": null
+        },
+        "dev-io0": {
+            "help": "RX for ESP32 Firmware download",
+            "value": null
+        },
+        "dev-tx": {
+            "help": "TX for ESP32 Firmware download",
+            "value": null
+        },
+        "dev-rx": {
+            "help": "RX for ESP32 Firmware download",
+            "value": null
+        }
+    },
+    "target_overrides": {
+        "*": {
+
+        },
+        "K64F": {
+            "dev-en"                            : "D3",
+            "dev-io0"                           : "D2",
+            "dev-tx"                            : "D12",
+            "dev-rx"                            : "D11"
+        },
+        "NUCLEO_F429ZI": {
+            "dev-en"                            : "D3",
+            "dev-io0"                           : "D2",
+            "dev-tx"                            : "D1",
+            "dev-rx"                            : "D0"
+        },
+        "CY8CKIT_062_WIFI_BT": {
+            "dev-en"                            : "D3",
+            "dev-io0"                           : "D2",
+            "dev-tx"                            : "P6_1",
+            "dev-rx"                            : "P6_0"
+        }
+    }
+}
