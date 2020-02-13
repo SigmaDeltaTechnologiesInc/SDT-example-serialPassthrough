@@ -36,8 +36,8 @@
         "K64F": {
             "dev-en"                            : "D3",
             "dev-io0"                           : "D2",
-            "dev-tx"                            : "D12",
-            "dev-rx"                            : "D11"
+            "dev-tx"                            : "D1",
+            "dev-rx"                            : "D0"
         },
         "NUCLEO_F429ZI": {
             "dev-en"                            : "D3",
