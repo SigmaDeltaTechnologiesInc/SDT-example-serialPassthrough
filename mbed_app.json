@@ -39,6 +39,12 @@
             "dev-tx"                            : "D1",
             "dev-rx"                            : "D0"
         },
+        "SDT64B": {
+            "dev-en"                            : "GPIO3",
+            "dev-io0"                           : "GPIO4",
+            "dev-tx"                            : "UART0_TX",
+            "dev-rx"                            : "UART0_RX"
+        },
         "NUCLEO_F429ZI": {
             "dev-en"                            : "D3",
             "dev-io0"                           : "D2",
